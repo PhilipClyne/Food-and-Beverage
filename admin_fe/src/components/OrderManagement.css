@@ -1,0 +1,98 @@
+/* OrderManagement.css */
+.order-management {
+  max-width: 1200px; /* Adjusted to better fit four items per row */
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.order-management h1 {
+  color: #fdfdfd;
+  text-align: center;
+  background: #ff9800;
+  width: 500px;
+  border-radius: 25px;
+
+  margin: 20px auto;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.filter-buttons button:hover {
+  background-color: #e68900;
+}
+.order-card .status {
+  color: red; /* Status color red */
+}
+
+.order-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 4 columns */
+  gap: 80px; /* Increased gap for more spacing */
+  justify-content: center;
+}
+
+.order-card {
+  background-color: #fdfdfd;
+  border: 1px solid #ececec;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.order-card h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.order-card p {
+  margin: 5px 0;
+}
+
+.order-card a {
+  color: #ff9800;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.order-card a:hover {
+  scale: 1.1;
+}
+
+.order-actions {
+  margin-top: 10px auto;
+}
+
+.order-actions button {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  margin: 25px;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.order-actions button:hover {
+  background-color: #e68900;
+}

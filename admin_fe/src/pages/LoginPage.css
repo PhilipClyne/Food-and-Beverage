@@ -1,0 +1,66 @@
+/* LoginPage.css */
+body {
+  padding: 0;
+  margin: 0;
+  background: url("../assets/img/v864-mind-foodillustrations-40.jpg");
+  background-size: cover;
+}
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  height: 600px;
+  background: rgba(255, 255, 255, 0.466);
+  font-family: Arial, sans-serif;
+}
+
+.login-page h1 {
+  color: #ff9800;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.login-page form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.login-page form div {
+  margin-bottom: 15px;
+}
+
+.login-page label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333333;
+}
+
+.login-page input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.login-page button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff9800;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-page button:hover {
+  background-color: #e68900;
+}

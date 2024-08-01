@@ -1,0 +1,106 @@
+/* PaymentType.css */
+.payment-type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff85;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  margin-top: 25px;
+  height: 100vh;
+}
+.qr {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 350px;
+}
+.qr-code {
+  position: absolute;
+  border: 2px solid #e68900;
+  background: white;
+  width: 800px;
+  padding: 25px;
+  border-radius: 25px;
+}
+.qr-btn {
+  background: #e68900;
+  padding: 5px;
+  border-radius: 25px;
+  width: 250px;
+  margin: 25px 15px;
+  border: none;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.payment-type h1 {
+  color: #ff9800;
+  margin-bottom: 20px;
+}
+
+.payment-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.payment-buttons button {
+  background-color: #ff9800;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  /* Increased padding */
+  font-size: 18px;
+  /* Increased font size */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.payment-buttons button:hover {
+  background-color: #e68900;
+  transform: scale(1.05);
+}
+
+.confirm-modal,
+.thank-you-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border: 2px solid #ff9800;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.confirm-modal h2,
+.thank-you-modal h2 {
+  color: #ff9800;
+  margin-bottom: 20px;
+}
+
+.confirm-modal button,
+.thank-you-modal button {
+  background-color: #ff9800;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  /* Increased padding */
+  font-size: 18px;
+  /* Increased font size */
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.confirm-modal button:hover,
+.thank-you-modal button:hover {
+  background-color: #e68900;
+  transform: scale(1.05);
+}

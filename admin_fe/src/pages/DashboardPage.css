@@ -1,0 +1,80 @@
+.dashboard-page {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.833);
+  margin-top: 25px;
+  border-radius: 25px;
+}
+
+.dashboard-buttons {
+  margin-bottom: 20px;
+}
+
+.dashboard-buttons button {
+  margin-right: 10px;
+}
+
+.dashboard-content {
+  display: flex;
+}
+
+.revenue-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.revenue-summary {
+  width: 30%;
+  padding-right: 20px;
+  border-right: 1px solid #ccc;
+  text-align: center;
+}
+
+.revenue-summary .date-picker-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.orders-list {
+  width: 70%;
+  padding-left: 20px;
+}
+select {
+  display: block;
+  margin: 0 auto;
+}
+
+.orders-list .order-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.orders-list .order-item button {
+  margin-top: 10px;
+}
+
+.orders-list h3 {
+  margin-top: 0;
+}
+
+.order-detail-panel {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  /* Có thể điều chỉnh kích thước chi tiết đơn hàng */
+  z-index: 10;
+}
+
+.revenue-display {
+  margin-top: 20px;
+}

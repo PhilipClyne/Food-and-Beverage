@@ -1,0 +1,69 @@
+/* OrderDetail.css */
+
+.order-detail-container {
+  font-family: Arial, sans-serif;
+  background-color: #fff5e6;
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ff6700;
+}
+
+.order-detail-container h1 {
+  color: #ff6700;
+}
+
+.order-detail-container h2 {
+  color: #ff6700;
+}
+
+.order-detail-container p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 5px 0;
+}
+
+.order-detail-container button {
+  background-color: #ff6700;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.order-detail-container button:hover {
+  background-color: #e65c00;
+}
+
+.order-detail-container button:disabled {
+  background-color: #ffb380;
+  cursor: not-allowed;
+}
+
+.order-detail-container img {
+  border: 1px solid #ccc;
+  padding: 5px;
+  background-color: #fff;
+  width: 100px;
+}
+
+.order-detail-container .order-details {
+  border: 1px solid #ff6700;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff5e6;
+}
+
+.order-detail-container .order-details h2 {
+  margin-top: 0;
+}
+
+.order-detail-container .order-details p {
+  margin: 5px 0;
+}
+
+.order-detail-container .order-details div {
+  margin-bottom: 10px;
+}

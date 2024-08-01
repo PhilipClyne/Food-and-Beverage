@@ -1,0 +1,128 @@
+/* CartPage.css */
+.cart-page {
+  padding: 20px;
+  background-color: #ffffff81;
+  font-family: Arial, sans-serif;
+  border-radius: 25px;
+  margin-top: 25px;
+}
+
+.menu {
+  margin-bottom: 20px;
+}
+
+.menu button {
+  background-color: #ff9800;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.menu button:hover {
+  background-color: #e68900;
+  transform: scale(1.05);
+}
+
+h1 {
+  color: #ff9800;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cart-items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.cart-item h3 {
+  flex: 1;
+  color: #333333;
+}
+
+.cart-item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.cart-item p {
+  flex: 1;
+  color: #333333;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-controls button {
+  background-color: #ff9800;
+  color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.quantity-controls button:hover {
+  background-color: #e68900;
+}
+
+.cart-item button {
+  background-color: #ff9800;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.cart-item button:hover {
+  background-color: #e68900;
+  transform: scale(1.05);
+}
+
+.cart-total {
+  text-align: center;
+  margin-top: 20px;
+  color: #ff9800;
+}
+
+.cart-total h2 {
+  color: #ff9800;
+}
+
+.cart-page button {
+  background-color: #ff9800;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.cart-page button:hover {
+  background-color: #e68900;
+  transform: scale(1.05);
+}

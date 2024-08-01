@@ -1,0 +1,38 @@
+/* ManageShopPage.css */
+.manage-shop-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.manage-shop-page div {
+  text-align: center;
+}
+
+.manage-shop-page button {
+  background-color: #ff9800;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  /* Slightly increased border radius for a more pronounced button shape */
+  padding: 20px 40px;
+  /* Further increased padding for a larger button */
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  font-size: 18px;
+  /* Increased font size for better visibility */
+}
+
+.manage-shop-page button:hover {
+  background-color: #e68900;
+  transform: scale(1.1);
+  /* Increased scale factor for a more pronounced hover effect */
+}
+
+.manage-shop-page button a {
+  color: #ffffff;
+  text-decoration: none;
+}

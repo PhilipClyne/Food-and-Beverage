@@ -1,0 +1,84 @@
+/* ProfilePage.css */
+
+.profile-page {
+  font-family: Arial, sans-serif;
+  background-color: #fff5e6;
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ff6700;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.profile-page h1 {
+  color: #ff6700;
+  text-align: center;
+}
+
+.profile-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-page .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.profile-page .form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.profile-page .form-group input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex-grow: 1;
+}
+
+.profile-page .form-group input:focus {
+  border-color: #ff6700;
+  outline: none;
+}
+
+.profile-page .form-group-row {
+  display: flex;
+  align-items: center;
+}
+
+.profile-page .form-group-row label {
+  margin-bottom: 25px;
+  width: 150px;
+}
+
+.profile-page .form-group-row input {
+  margin-bottom: 25px;
+  flex: 1;
+}
+
+.profile-page button {
+  background-color: #ff6700;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profile-page button:hover {
+  background-color: #e65c00;
+}
+
+.profile-page p {
+  text-align: center;
+}
+
+.profile-page p[style*="color: red"] {
+  color: red;
+}
